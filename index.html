@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gehu Legendaris - Rasa yang Tak Terlupakan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <span class="logo-text">Gehu Legendaris</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#testimonial">Testimoni</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Gehu Legendaris</h1>
+                <p class="tagline">Rasa yang melegenda sejak 1985</p>
+                <a href="#menu" class="cta-button">Lihat Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Kami</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Legenda Rasa sejak 1985</h3>
+                    <p>Gehu Legendaris dimulai dari gerobak kecil di pinggir jalan yang kini telah menjadi favorit banyak orang. Dengan resep turun temurun dan bumbu rahasia, kami menjaga keaslian rasa yang membuat pelanggan selalu kembali.</p>
+                    <p>Setiap gigitan Gehu kami memberikan sensasi renyah di luar dan lembut di dalam, dengan bumbu kacang yang khas dan pedasnya pas.</p>
+                    <div class="signature">
+                        <p>- Keluarga Gehu Legendaris</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gehu Legendaris">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>Menu Andalan</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">Semua</button>
+                <button class="category-btn" data-category="gehu">Gehu</button>
+                <button class="category-btn" data-category="minuman">Minuman</button>
+                <button class="category-btn" data-category="lainnya">Lainnya</button>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <!-- Items will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section" id="testimonial">
+        <div class="container">
+            <div class="section-title">
+                <h2>Apa Kata Mereka</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonials">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Gehu disini benar-benar berbeda! Renyahnya pas, bumbu kacangnya juara. Sudah langganan sejak 10 tahun lalu!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Customer">
+                        <h4>Sarah Wijaya</h4>
+                        <p>Pelanggan Setia</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Setiap pulang kampung pasti mampir ke sini. Rasanya bikin kangen dan tidak pernah berubah sejak dulu."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Customer">
+                        <h4>Budi Santoso</h4>
+                        <p>Ekspatriat</p>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Pedasnya level dewa! Tapi tetap enak dan nagih. Sudah mencoba banyak tempat, tapi tetap yang ini yang terbaik."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Customer">
+                        <h4>Dewi Lestari</h4>
+                        <p>Food Vlogger</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Hubungi Kami</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Lokasi & Kontak</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Jl. Legendaris No. 1985, Kota Bandung</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+62 812 3456 7890</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@gehulegendary.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Buka setiap hari: 10.00 - 22.00 WIB</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subjek">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Gehu Legendaris</h3>
+                    <p>Rasa yang melegenda sejak 1985</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#testimonial">Testimoni</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan promo dan menu terbaru</p>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Email Anda" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Gehu Legendaris. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
